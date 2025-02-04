@@ -16,8 +16,6 @@ int main() {
     char read_msg_2[STR_LEN]; /*C string For reading from pipe*/
     char write_msg_2[STR_LEN]; /*C string For writing to pipe*/
 
-    strcpy(read_msg_2, "CONSUMED");
-
     /*Create pipes and check for failure*/
      if (pipe(pipe1) == -1) { 
         perror("Pipe failed");
@@ -90,5 +88,6 @@ int main() {
         close(pipe2[0]);
      }
 
+    exit(0);
     return 0;
 }

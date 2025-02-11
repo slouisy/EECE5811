@@ -1,6 +1,6 @@
 To run program in Mac/Linux Terminal:
 1.Navigate to folder with code and makefile
-2.Type "make main"
+2.Type "make run"
 
 To run program on Windows:
 Compile using g++ or run "main.c" in an IDE such as Visual Studio

@@ -15,7 +15,7 @@ main: main.c
 clean:
 	rm -f $(TARGETS)
 
-run_main: main
+run: main
 	./main
 	
 .PHONY: all clean run
